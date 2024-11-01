@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale 1.0">
+	<link rel="stylesheet" type="text/css" href="accueil.css">
+	<script src="accueil.js"></script>
+	<title></title>
+</head>
+<body>
+<div class="header">
+  <h2>Sports et loisirs</h2>
+</div>
+<!-------------------------Menu de navigation de la page web debut--------------------------------->
+
+    <script src="./animals.js"></script>
+</body>
+  
+  <nav aria-label="Mythical University">
+     <!-- input tag -->
+    <input id="searchbar" onkeyup="search_sport_favorite()" type="text"
+        name="search"  placeholder="  search ..." >
+      
+    <!-- ordered list -->
+    
+      
+    <!-- linking javascript -->
+    <ul class="menubar-navigation" role="menubar" aria-label="Mythical University">
+      <li role="none">
+        <a role="menuitem" href="#home"> Domicile </a>
+      </li>
+      <li role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false" href="#about">
+          MENU
+          <svg xmlns="http://www.w3.org/2000/svg" class="down" width="12" height="9" viewBox="0 0 12 9">
+            <polygon points="1 0, 11 0, 6 8"></polygon>
+          </svg>
+        </a>
+        <ul role="menu" aria-label="About">
+          <li role="none">
+            <a role="menuitem" href="#https://en.wikipedia.org/wiki/Maria_Theresia_Ahlefeldt">FOOTBALL</a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="#administration">GOLF</a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="#administration">BASKTBALL</a>
+          </li>
+           <li role="none">
+            <a role="menuitem" href="https://www.bing.com/ck/a?!&&p=f0c4b9c6996adf2bfdcbe47f7555cf3f467ae5f88413f27689ec2843e606a850JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=hockey&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvSG9ja2V5&ntb=1">HOCKEY</a>
+          </li>
+           <li role="none">
+            <a role="menuitem" href="#administration">TENNIS</a>
+          </li>
+        </ul>
+    </nav>
+<!------------------------Menu de navigation de la page web fin--------------------------------->
+
+<div class="row">
+  <div class="column side" style="background-color:#aaa;">         </div>
+  <div class="column middle" style="background-color:#bbb;">
+   <!--------------------------------Diaporama de de la page web debut------------------------------------------------->
+  <section id="myCarousel"
+         class="carousel "
+         aria-roledescription="carousel"
+         aria-label="Highlighted television shows">
+  <div class="carousel-inner" >
+    <div class="controls">
+      <button type="button"
+              class="rotation pause"
+              aria-label="Stop automatic slide show">
+        <svg width="42"
+             height="34"
+             version="1.1"
+             xmlns="http://www.w3.org/2000/svg">
+          <rect class="background"
+                x="2"
+                y="2"
+                rx="5"
+                ry="5"
+                width="38"
+                height="24"></rect>
+          <rect class="border"
+                x="4"
+                y="4"
+                rx="5"
+                ry="5"
+                width="34"
+                height="20"></rect>
+          <polygon class="pause" points="17 8 17 20"></polygon>
+          <polygon class="pause" points="24 8 24 20"></polygon>
+          <polygon class="play" points="15 8 15 20 27 14"></polygon>
+        </svg>
+      </button>
+      <button type="button"
+              class="previous"
+              aria-controls="myCarousel-items"
+              aria-label="Previous Slide">
+        <svg width="42"
+             height="34"
+             version="1.1"
+             xmlns="http://www.w3.org/2000/svg">
+          <rect class="background"
+                x="2"
+                y="2"
+                rx="5"
+                ry="5"
+                width="38"
+                height="24"></rect>
+          <rect class="border"
+                x="4"
+                y="4"
+                rx="5"
+                ry="5"
+                width="34"
+                height="20"></rect>
+          <polygon points="9 14 21 8 21 11 33 11 33 17 21 17 21 20"></polygon>
+        </svg>
+      </button>
+      <button type="button"
+              class="next"
+              aria-controls="myCarousel-items"
+              aria-label="Next Slide">
+        <svg width="42"
+             height="34"
+             version="1.1"
+             xmlns="http://www.w3.org/2000/svg">
+          <rect class="background"
+                x="2"
+                y="2"
+                rx="5"
+                ry="5"
+                width="38"
+                height="24"></rect>
+          <rect class="border"
+                x="4"
+                y="4"
+                rx="5"
+                ry="5"
+                width="34"
+                height="20"></rect>
+          <polygon points="9 11 21 11 21 8 33 14 21 20 21 17 9 17"></polygon>
+        </svg>
+      </button>
+    </div>
+    <div id="myCarousel-items"
+         class="carousel-items"
+         aria-live="off">
+      <div class="carousel-item active"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="1 of 6">
+        <div class="carousel-image">
+          <a href="#">
+            <img src="Images/img1.jpg" alt="Image 1">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-1">
+              La rencontre de tout les jeux dans seul. 
+            </a>
+          </h3>
+          <div class="hidden-xs hidden-sm">
+            <p>
+              <span class="contrast">
+                7 pm Lundi, octobre 28, on TV.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="2 of 6">
+        <div class="carousel-image">
+          <a href="#">
+             <img src="Images/img2.jpg" alt="Image 2">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-2">
+              Voyager dans l'Ambiance du Hocker.
+            </a>
+          </h3>
+          <div>
+            <p>
+              <span class="contrast">
+                Oct. 14 au Dec. 24 or 27.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="3 of 6">
+        <div class="carousel-image">
+          <a href="#">
+           <img src="Images/img3.jpg" alt="Image 3">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-3">
+              L'un des jeux les plus Spectaculaires. 
+            </a>
+          </h3>
+          <div></div>
+        </div>
+      </div>
+      <div class="carousel-item"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="4 of 6">
+        <div class="carousel-image">
+          <a href="#">
+           <img src="Images/img4.jpeg" alt="Image 4">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-4">
+              Un tournoi de Golf Execeptionnel.
+            </a>
+          </h3>
+          <div>
+            <p>
+              <span class="contrast">
+                8 pm Samedi, Sept 28, on TV: Apercu de la dernier saison.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="5 of 6">
+        <div class="carousel-image">
+          <a href="#">
+            <img src="Images/img5.jpg" alt="Image 5">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-5">
+              Un Sport Magnifique.
+            </a>
+          </h3>
+          <div></div>
+        </div>
+      </div>
+      <div class="carousel-item"
+           role="group"
+           aria-roledescription="slide"
+           aria-label="6 of 6">
+        <div class="carousel-image">
+          <a href="#">
+            <img src="Images/img6.jpg" alt="Image 6">
+          </a>
+        </div>
+        <div class="carousel-caption">
+          <h3>
+            <a href="#" id="carousel-label-6">
+             Vener prendre du plaisir: Jeudi at 7 pm.
+            </a>
+          </h3>
+          <div class="hidden-xs hidden-sm">
+            <p>
+              <span class="contrast">
+               Avec la dernier episode de la session.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="col-sm-1 "></div></div>
+
+
+  <div class="column side" style="background-color:#ccc;">     </div>
+</div>
+<!--------------------------------Corps de de la page web debut------------------------------------------------->
+  <div class="tabs">
+  <h3 id="tablist-1">
+
+  </h3>
+  <div role="tablist"
+       aria-labelledby="tablist-1"
+       class="manual">
+    <button id="tab-1"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="tabpanel-1">
+      <span class="focus">
+       FOOTBALL
+      </span>
+    </button>
+    <button id="tab-2"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tabpanel-2"
+            tabindex="-1">
+      <span class="focus">
+        GOLF
+      </span>
+    </button>
+    <button id="tab-3"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tabpanel-3"
+            tabindex="-1">
+      <span class="focus">
+        BASKTBALL
+      </span>
+    </button>
+    <button id="tab-4"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tabpanel-4"
+            tabindex="-1">
+      <span class="focus">
+        HOCKER
+      </span>
+    </button>
+    <button id="tab-5"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tabpanel-5"
+            tabindex="-1">
+      <span class="focus">
+        TENIS
+      </span>
+    </button>
+  </div>
+  <div id="tabpanel-1"
+       role="tabpanel"
+       aria-labelledby="tab-1">
+    <p>
+      <a href="https://www.bing.com/ck/a?!&&p=cdae89cc0ddd40a3a91a751dc3b10a347a0f9e10a0f1e6b6fc28764abd7974e7JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=football+&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvRm9vdGJhbGw&ntb=1t">
+        Histoire du football
+      </a>
+      (Le football (/futbol/), ou dans le langage courant foot par apocope, ou encore soccer (/sɔkœʁ/) en français d'Amérique du Nord, et plus rarement <strong> balle au pied</strong>, est un sport collectif qui se joue avec un ballon sphérique entre deux équipes de onze joueurs ou joueuses. Ces équipes s'opposent, dans le sens de la longueur, sur un terrain rectangulaire équipé de deux buts installés au milieu de chacun des petits côtés du rectangle. L'objectif de chaque camp est de mettre le ballon dans le but adverse un nombre supérieur de fois à celui de l'autre équipe, sans que les joueurs utilisent leurs bras ou leurs mains, à l'exception des gardiens de buts : le pied est en conséquence la partie du corps principalement utilisée pour provoquer le déplacement du ballon sur le terrain.
+
+Nommé à l'origine « <strong>football association</strong> » et codifié au Royaume-Uni à la fin du XIXe siècle, le football s'est doté en 1904 d'une fédération internationale, la FIFA. Pratiqué en 2006 par environ 264 millions de joueurs à travers le monde, le football est le sport le plus populaire dans la majorité des pays : ceci est dû au fait qu’il est probablement le sport collectif qui exige le moins de moyens matériels pour une pratique ludique ou d’entraînement, le cas échéant avec un nombre réduit de joueurs. Certains continents, comme l'Afrique, l'Amérique du Sud et l'Europe, sont même presque entièrement dominés par cette pratique sportive.
+
+Le calendrier des compétitions est gouverné par deux types d'épreuves : celles concernant les clubs et celles des équipes nationales. La Coupe du monde est l'épreuve internationale la plus prestigieuse. Elle a lieu tous les quatre ans depuis 1930 (sauf en 1942 et 1946). Pour les clubs, championnats nationaux et autres coupes sont au programme des compétitions.
+
+En compétition de clubs, la Ligue des champions de l'UEFA, disputée en Europe mais qui possède des équivalents sur les autres continents, est le trophée le plus convoité de ce sport, malgré la mise en place récente d'une Coupe du monde des clubs, encore à la recherche de prestige.
+  </div>
+  <div id="tabpanel-2"
+       role="tabpanel"
+       aria-labelledby="tab-2"
+       class="is-hidden">
+    <p>
+      <a href="https://www.bing.com/ck/a?!&&p=1e71d4487683060340d96168f89c1c2822703a6cc9ca850ab671a94e3fabf189JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=golf&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvR29sZg&ntb=1">
+        GOLF
+      </a>
+      Il existe des jeux de balles et de bâtons dès l'Antiquité. Sous l'Empire romain, un jeu consiste à envoyer une balle de cuir vers un but déterminé appelé panagica, mais rien ne permet d'affirmer qu'un bâton ait été utilisé pour y parvenir. Plus tard en Angleterre, le jeu cambuca consiste à frapper une balle en bois à l'aide d'une canne et fait référence au jeu romain. Au Moyen Âge, de nombreux jeux à travers l'Europe coexistent où l'on tape une balle vers des poteaux ou des anneaux de fer avec d'un côté le jeu de mail (ou palemail, pall mall…), jeu d'origine française repris en Italie et en Angleterre, d'un autre un jeu où l'on tape une balle avec une canne, pratiqué aux Pays-Bas, en France et en Angleterre sous divers noms (l'historien allemand Steven van Henge trouvant la trace de documents en 1297 mentionnant un hobby germanique joué en Hollande, le kolf, « club », colve, « jeu avec clubs », colven, kolven, et une carte hollandaise décrivant un parcours en 4 trous de 4 500 m). Enfin, un jeu quelque peu similaire au golf est pour la première fois mentionné dans le Recueil de Dongxuan (en chinois, 東軒錄), un ouvrage chinois du XIe siècle, sous le nom de chuiwan en Chine.
+
+La véritable origine du golf moderne provient de Hollande. En 1297, à Loenen aan de Vecht, lors d'une commémoration, un jeu appelé colf est pratiqué où l'on doit taper une balle et l'envoyer vers un but précis. Quelques années plus tard, dès 1360, les autorités de Bruxelles dressent des amendes aux personnes pratiquant ce jeu (en l'absence de parcours, les gens y jouent quel que soit l'endroit) avant d'édicter une loi autorisant le jeu en dehors des limites de la cité. La première mention du parcours (et du fairway) intervient en 1483 à Haarlem (Pays-Bas) avec la tonte d'herbe dans des prés. Jusqu'au XVIIe siècle, le jeu connaît un succès croissant en Hollande avant de disparaître brutalement en raison du développement des jeux d'intérieur et de société, mais aussi parce que la mode vestimentaire devenue plus sophistiquée rend difficile la pratique de ce jeu.
+
+C'est finalement en Écosse que le golf que l'on connaît actuellement apparaît. En raison des flux commerciaux qui prospèrent en mer du Nord au cours du Moyen Âge et de la période post moderne, le golf est importé par des marins hollandais en Écosse avec le matériel nécessaire (balles, clubs fabriqués en Hollande). Cependant, le golf ne s'établit que sur la côte Est de l'Écosse (premier parcours à l'Ouest en 1848) et est longtemps confiné sur ce côté dès le XVIIe siècle où de nombreux documents attestent de son existence (Traité de Glasgow en 1501). Peu à peu, le golf, essentiellement pratiqué à son origine par les francs-maçons, commence son expansion avec le premier fabricant de clubs à Saint Andrews en 1627 et divers parcours (Bruntsfield, considéré comme le premier vrai parcours de golf en Écosse, Musselburgh et Perth). Le premier parcours de Saint Andrews compte 22 trous avant d'être réduit à 18 trous au total. En 1744, l'Honourable Company of Edinburgh Golfers rédige une dizaine de règles de jeu mais c'est dix années plus tard que le premier règlement officiel est mis au point par le Royal and Ancient Golf Club of St Andrews qui édicte au total treize règles (qui n'ont pas varié depuis, à part pour la précision et l'incorporation d'autres règles)2. Dès le début des années 1770, un premier terrain de golf africain est construit sur l'île de Bunce, en Sierra Leone, par des marchands d'esclaves anglais <a href="https://www.bing.com/ck/a?!&&p=1e71d4487683060340d96168f89c1c2822703a6cc9ca850ab671a94e3fabf189JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=golf&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvR29sZg&ntb=1">Affiche...</a>.
+    </p>
+  </div>
+  <div id="tabpanel-3"
+       role="tabpanel"
+       aria-labelledby="tab-3"
+       class="is-hidden">
+    <p>
+      <a href="https://www.bing.com/ck/a?!&&p=ff9d9e81e9ec75916df03f4829189f4163f12c7854cb39e9a615b2607c54670eJmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=basketball&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvQmFza2V0LWJhbGw&ntb=1">
+        BASKETBALL
+      </a>
+      Le <strong>basket-ball</strong> ou <strong>basketball</strong>, fréquemment désigné par son abréviation basket, est un sport collectif de balle opposant deux équipes de cinq joueurs sur un terrain de forme rectangulaire. L'objectif de chaque équipe est de faire passer un ballon au sein d'un arceau de 45 cm de diamètre, fixé à un panneau et placé à 3,05 m du sol : le panier. Chaque panier inscrit rapporte deux points à son équipe, à l'exception des tirs effectués au-delà de la ligne des trois points (qui rapportent trois points) et des lancers francs accordés à la suite d'une faute (qui rapportent un point). L'équipe avec le nombre de points le plus important remporte la partie.
+
+Le basket-ball se pratique exclusivement à la main, et les joueurs peuvent se déplacer balle en main en dribblant sur le sol ou en effectuant deux pas maximum sans dribbler. L'équipe en possession du ballon (l’équipe qui attaque) tente d'inscrire des points en réalisant des tirs, des double-pas ou des dunks, tandis que l'équipe en défense essaie de les en empêcher en réalisant des interceptions de ballon ou des contres. Si le tir échoue, les joueurs des deux équipes tentent d'attraper la balle au rebond.
+
+James Naismith, un professeur d'éducation sportive originaire du Canada, invente le basket-ball en 1891 dans l'État du Massachusetts (États-Unis) pour maintenir la condition physique de ses élèves durant l'hiver. Le sport devient rapidement populaire et se développe dans les universités et écoles secondaires en Amérique du Nord au début du siècle. La Fédération internationale de basket-ball <strong>(FIBA)</strong> est créée en 1932 et le sport est inscrit au programme des Jeux olympiques en 1936. La principale ligue professionnelle masculine des États-Unis, la National Basketball Association (NBA), est fondée en 1946 et voit émerger de grands joueurs qui contribuent à l'accroissement de la popularité du basket-ball : Wilt Chamberlain et Bill Russell dans les années 1960, puis Kareem Abdul-Jabbar, Moses Malone, Larry Bird, Magic Johnson, et surtout Michael Jordan, fréquemment considéré comme le plus grand basketteur de l'histoire, puis Kobe Bryant et LeBron James.
+
+Le basket-ball est aujourd'hui l'un des sports les plus pratiqués au monde, avec plus de 450 millions de pratiquants en 2013. De nombreux championnats ont été créés sur les cinq continents, notamment en Europe et en Asie, où le sport est en plein essor depuis les années 2000. Les femmes représentent une bonne partie des pratiquants, malgré une plus faible exposition médiatique du basket-ball féminin. De nombreuses variantes du basket-ball se sont développées, comme le basket-ball en fauteuil roulant (aussi appelé « handibasket »), le streetball (« basket-ball de rue ») ou le basket-ball à trois contre trois. Enfin, une culture s’est peu à peu développée autour du sport et a pris forme dans la musique, la littérature, le cinéma et le jeu vidéo. <a href="https://www.bing.com/ck/a?!&&p=ff9d9e81e9ec75916df03f4829189f4163f12c7854cb39e9a615b2607c54670eJmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=basketball&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvQmFza2V0LWJhbGw&ntb=1">suis</a>
+    </p>
+  </div>
+  <div id="tabpanel-4"
+       role="tabpanel"
+       aria-labelledby="tab-4"
+       class="is-hidden">
+    <p>
+      <a href="https://www.bing.com/ck/a?!&&p=f0c4b9c6996adf2bfdcbe47f7555cf3f467ae5f88413f27689ec2843e606a850JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=hockey&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvSG9ja2V5&ntb=1">
+       Histoire
+      </a>
+     Les jeux joués avec des bâtons courbes et une balle peuvent trouver dans l'histoire de nombreuses cultures. En Égypte ancienne, des sculptures vieilles de 4000 ans présentent des équipes avec des bâtons et un projectile, le hurling précède 1272 av. J.-C. en Irlande, et il y a une représentation d'environ 600 av. J.-C. dans la Grèce antique, où le jeu peut avoir été appelé kerētízein ou (ηερητίζειν) parce qu'il était joué avec une corne ou un bâton en forme de corne (kéras, κέρας). En Mongolie-Intérieure, le peuple Daur joue au beikou, un jeu similaire au hockey sur gazon moderne, depuis environ 1000 ans.
+
+La plupart des preuves de jeux de type hockey au Moyen Âge se trouvent dans la législation concernant les sports et les jeux. Le Statut de Galway promulgué en Irlande en 1527 interdit certains types de jeux de balle, y compris les jeux utilisant des bâtons «à crochets» (écrits « hockie », semblables à «hooky»).
+
+Au XIX <sup>e</sup> siècle, les diverses formes et divisions des jeux historiques commencent à se fondre dans les sports individuels définis aujourd'hui. Des organisations dédiées à la codification des règles et règlements se forment, et des organismes nationaux et internationaux voient le jour pour gérer la concurrence nationale et internationale. <a href="https://www.bing.com/ck/a?!&&p=f0c4b9c6996adf2bfdcbe47f7555cf3f467ae5f88413f27689ec2843e606a850JmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=hockey&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvSG9ja2V5&ntb=1">Voir la suite</a>
+    </p>
+  </div>
+   <div id="tabpanel-5"
+       role="tabpanel"
+       aria-labelledby="tab-5"
+       class="is-hidden">
+    <p>
+      <a href="https://www.bing.com/ck/a?!&&p=b25300aa9f242126772ecb231c6a0dfc211fa4d2a36652d0504b40dbfa0238faJmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=tenis&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvVGVubmlz&ntb=1">
+      Tennis le sport des raquettes
+      </a>
+      Le tennis est un sport de raquette qui oppose soit deux joueurs (on parle alors de jeu en simple) soit quatre joueurs qui forment deux équipes de deux. Les joueurs utilisent une raquette cordée verticalement et horizontalement (en tamis) à une tension variant avec la puissance ou l'effet.
+
+Cette raquette, dont les matériaux peuvent varier, sert à frapper une balle en caoutchouc, remplie d'air et recouverte de feutre. Le but du jeu est de frapper la balle en ne laissant pas plus d'un rebond de telle sorte que l'adversaire ne puisse la remettre dans les limites du terrain, soit en marquant le point en mettant l'adversaire hors de portée de la balle, soit en l'obligeant à commettre une faute. <a href="https://www.bing.com/ck/a?!&&p=b25300aa9f242126772ecb231c6a0dfc211fa4d2a36652d0504b40dbfa0238faJmltdHM9MTcyOTY0MTYwMA&ptn=3&ver=2&hsh=4&fclid=085bf0df-54dc-6013-2076-e43355e76174&psq=tenis&u=a1aHR0cHM6Ly9mci53aWtpcGVkaWEub3JnL3dpa2kvVGVubmlz&ntb=1">Pour la suite...</a>
+    </p>
+  </div>  
+<!-------------------------------Corps  de de la page web fin------------------------------------------------->
+<div class="footer">
+	<div class="kilimanjaro_part m-top-15">
+                            <h5>Social Links</h5>
+                            <ul class="kilimanjaro_social_links">
+                                <li><a href=" <i class="bi bi-instagram"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+ 		 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+	</svg><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+
+		<li><a href="<i class="bi bi-twitter"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+
+		<li><a href="<i class="bi bi-tiktok"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  	 <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg><i class="fa fa-pinterest" aria-hidden="true"></i> </a></li>
+		<li><a href="<i class="bi bi-whatsapp"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  	 <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg><i class="fa fa-youtube" aria-hidden="true"></i> WhatSapp</a></li>
+        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+           </ul>
+         </div>
+          <p>Copyright © 2024 Sport et Loisirs.com. Tous droits réservés. <a href="contact.html">Contact<i class="fa fa-love"></i></a></p>
+      </div>
+         
+  </p>
+</div>
+
+</body>
+</html>

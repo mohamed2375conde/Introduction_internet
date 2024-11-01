@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+  font-family: *Poppins*;
+
+}
+section{
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+section .imgbox{
+  position: relative;
+  width: 50%;
+  height: %;
+  background: linear-gradient(transparent,#1b1407),url("Images/img0.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+section .contentbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+section .contentbox .formbox h2{
+  color: #607d8b;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #fa1;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.inputbx{
+  margin-bottom: 20px;
+}
+
+.inputbx span{
+font-size: 16px;
+margin-bottom: 5px;
+display: inline-block;
+color: #607db8;
+font-weight: 300;
+letter-spacing: 1px;
+}
+.inputbx input{
+width: 100%;
+padding: 10px 20px;
+font-weight: 400;
+border: 1px solid #607d8b;
+letter-spacing: 1px;
+color:#607d8b ;
+outline: none;
+background-color: transparent;
+border-radius: 10px;
+}
+/* permet de créer le boutton d'envoi de notre page debut */
+button {
+    background-color: #4CAF50; /* Vert */
+    border: none;
+    color: blanc;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+button:hover, myForm{
+    background-color: #45a049; /* Vert foncé */
+    opacity: 0.5;
+
+}
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche l'envoi par défaut du formulaire
+    alert('Formulaire envoyé !');
+});
+/* permet de créer le boutton d'envoi de notre page fin */
+
+
+.remember{
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+.inputbx p{
+  color: #607d8b;
+  text-align: center;
+}
+.inputbx p a{
+  color: #fa1;
+}
+/*Sensible*/
+@media(max-width:768px){
+section.img2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  section.contentbox{
+    width: 100px;
+    z-index: 1;
+  }
+  section.contentbox. formbox{
+  
+    background-color: rgb(255, 255, 255 / 0.9);
+    padding: 40px;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: *algerian*;
+  text-shadow: 7px 7px 7px #000;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  /* unvisited link */
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* ----------------footer--------------------- */
+
+footer {
+  text-align: center;
+  padding: 5px;
+
+  color: #000;
+
+}
